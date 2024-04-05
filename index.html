@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BookWise</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+<header>
+    <div id="menu-bar" class="fas fa-bars"></div>
+    <a href="#" class="logo"><span>B</span>ookWise</a>
+    <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#book">buy now</a>
+        <a href="#packages">packages</a>
+        <a href="#services">services</a>
+        <a href="#review">review</a>
+        <a href="#contact">contact</a>
+    </nav>
+    <div class="icons">
+        <i class="fas fa-search" id="search-btn"></i>
+        <i class="fas fa-user" id="login-btn"></i>
+    </div>
+    <form action="" class="search-bar-container">
+        <input type="search" id="search-bar" placeholder="search here...">
+        <label for="search-bar" class="fas fa-search"></label>
+    </form>
+</header>
+
+<div class="login-form-container">
+    <i class="fas fa-times" id="form-close"></i>
+    <form action="">
+        <h3>login</h3>
+        <input type="email" class="box" placeholder="enter your email">
+        <input type="password" class="box" placeholder="enter your password">
+        <input type="submit" value="login now" class="btn">
+        <input type="checkbox" id="remember">
+        <label for="remember">remember me</label>
+        <p>forgot password? <a href="#">click here</a></p>
+        <p>Don't have an account? <a href="#">Register Now</a></p>
+    </form>
+</div>
+  
+<section class="home" id="home">
+  <div class="content">
+      <h3>Discover, Delve, and Dive into BookWise</h3>
+      <p>Unlock a world of knowledge and adventure with our curated selection of books.</p>
+      <a href="#" class="btn">explore now</a>
+  </div>
+</section>
+
+  
+<section class="book" id="book">
+    <h1 class="heading">
+        <span>b</span>
+        <span>u</span>
+        <span>y</span>
+        <span class="space"></span>
+        <span>n</span>
+        <span>o</span>
+        <span>w</span>
+    </h1>
+    <section class="book">
+        <div class="row">
+          <div class="image">
+            <img src="images/illus1.png" alt="Book Image">
+          </div>
+          <form>
+            <div class="inputBox">
+              <h3>Your Name</h3>
+              <input type="name" name="name" required>
+            </div>
+            <div class="inputBox">
+              <h3>Email Address</h3>
+              <input type="email" name="email" required>
+            </div>
+            <div class="inputBox">
+              <h3>Phone Number</h3>
+              <input type="tel" name="phone" required>
+            </div>
+            <div class="inputBox">
+              <h3>Address</h3>
+              <input type="text" name="address" required>
+            </div>
+            <div class="inputBox">
+              <h3>Quantity</h3>
+              <input type="number" name="quantity" required>
+            </div>
+            <input type="submit" class="btn" value="Buy Now">
+          </form>
+        </div>
+      </section>      
+</section>
+
+<section class="packages" id="packages">
+    <h1 class="heading">
+        <span>p</span>
+        <span>a</span>
+        <span>c</span>
+        <span>k</span>
+        <span>a</span>
+        <span>g</span>
+        <span>e</span>
+        <span>s</span>
+    </h1>
+    <div class="box-container">
+        <div class="box">
+          <img src="images/package.jpg" alt="Book Bundle 1">
+          <div class="content">
+            <h3>Bestseller Collection</h3>
+            <p>Get our curated selection of bestseller books, handpicked by our experts, delivered straight to your doorstep.</p>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+              <i class="far fa-star"></i>
+            </div>
+            <div class="price">
+              Rs.1050 <span>Rs.1200</span>
+            </div>
+          </div>
+        </div>
+        <div class="box">
+          <img src="images/package (2).jpg" alt="Book Bundle 2">
+          <div class="content">
+            <h3>Classic Literature Set</h3>
+            <p>Indulge in timeless classics with our Classic Literature Set, featuring masterpieces from renowned authors.</p>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <div class="price">
+              Rs.800 <span>Rs.950</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+</section>
+
+<section class="services" id="services">
+    <h1 class="heading">
+        <span>s</span>
+        <span>e</span>
+        <span>r</span>
+        <span>v</span>
+        <span>i</span>
+        <span>c</span>
+        <span>e</span>
+        <span>s</span>
+    </h1>
+    <div class="box-container">
+        <div class="box">
+          <i class="fas fa-book-open"></i>
+          <h3>Wide Selection</h3>
+          <p>Choose from a vast collection of books spanning various genres, from fiction to non-fiction, available for all ages.</p>
+        </div>
+        <div class="box">
+          <i class="fas fa-shipping-fast"></i>
+          <h3>Fast Delivery</h3>
+          <p>Enjoy fast and reliable delivery services,<br> ensuring your books reach you<br> in a timely manner.</p>
+        </div>
+        <div class="box">
+          <i class="fas fa-money-bill-wave"></i>
+          <h3>Secure Payments</h3>
+          <p>Make hassle-free and secure payments<br>for your orders through our<br> trusted payment gateways.</p>
+        </div>
+      </div>
+    </section>
+<section class="review" id="review">
+    <div class="heading">
+        <h1 class="heading">
+            <span>R</span>
+            <span>e</span>
+            <span>v</span>
+            <span>i</span>
+            <span>e</span>
+            <span>w</span>
+            <span>s</span>
+        </h1>
+    </div>
+    <div class="review-slider">
+      <div class="box">
+        <img src="images/review1.jpg" alt="Customer 1">
+        <h3>John Doe</h3>
+        <p>"Absolutely loved the service! The staff was incredibly helpful and friendly. Will definitely be coming back again."</p>
+        <div class="stars">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star-half-alt"></i>
+        </div>
+      </div>
+      <div class="box">
+        <img src="images/review2.jpg" alt="Customer 2">
+        <h3>Jane Smith</h3>
+        <p>"I highly recommend this place to everyone! The quality of service is exceptional and the prices are reasonable. Great experience overall."</p>
+        <div class="stars">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star-half-alt"></i>
+          <i class="far fa-star"></i>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <section class="contact" id="contact">
+    <h1 class="heading">
+        <span>c</span>
+        <span>o</span>
+        <span>n</span>
+        <span>t</span>
+        <span>a</span>
+        <span>c</span>
+        <span>t</span>
+    </h1>
+        <div class="row">
+          <div class="help-info">
+            <h3>Ways I Can Assist You</h3>
+            <ul>
+              <li>Provide information about available products</li>
+              <li>Assist with placing orders</li>
+              <li>Address any concerns or questions</li>
+              <li>Offer recommendations based on your preferences</li>
+            </ul>
+          </div>
+          <div class="contact-info">
+            <h3>Contact Information</h3>
+            <p>Email: info@bookwise.com</p>
+            <p>Phone: +1234567890</p>
+          </div>
+        </div>
+</section>
+
+<section class="footer">
+    <div class="box-container">
+        <div class="box">
+            <h3>about us</h3>
+            <p>We are a dedicated team passionate about books and committed to providing the best book buying experience for our customers.</p>
+        </div>
+        <div class="box">
+            <h3>branch locations</h3>
+            <a href="#">India</a>
+            <a href="#">Pakistan</a>
+            <a href="#">USA</a>
+            <a href="#">Japan</a>
+            <a href="#">France</a>
+        </div>
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="#">home</a>
+            <a href="#">book</a>
+            <a href="#">packages</a>
+            <a href="#">services</a>
+            <a href="#">gallery</a>
+            <a href="#">review</a>
+            <a href="#">contact</a>
+        </div>
+        <div class="box">
+            <h3>follow us</h3>
+            <a href="#">facebook</a>
+            <a href="#">instagram</a>
+            <a href="#">twitter</a>
+            <a href="#">linkedin</a> 
+        </div>
+    </div>
+    <h1 class="credit"> <span>&copy;BookWise </span> | All rights reserved </h1>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
+
